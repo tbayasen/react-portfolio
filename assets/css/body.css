@@ -1,0 +1,73 @@
+/* MAIN CSS */
+#overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgb(128, 0, 128, .7); */
+    background-color: #2b2d2f;
+}
+
+.transparentBG {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none !important;
+}
+
+.transparentbtn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.icons i {
+    color: white;
+    font-size: 2em;
+}
+.absolute {
+    position: absolute;
+}
+
+/* CONTENT CSS */
+.content-body {
+    display: block;
+    position: fixed;
+    padding-left: 3em;
+    height: 75vh;
+    width: 95vw;
+    right: 0;
+    bottom: 0;
+    top: 5rem;
+}
+
+    .content-header {
+        display: block;
+        color: #4169E1;
+        font-family: 'Roboto Slab', serif;
+        letter-spacing: .1em;
+        padding-top: 2.5em;
+        padding-left: 5em;
+    }
+
+    .content-header h1 {
+        max-width: 600px;
+        font-weight: 800;
+        font-size: 65px;
+        /* background: -webkit-linear-gradient(left, ); */
+        /* -webkit-background-clip: text; */
+        /* -webkit-text-fill-color: transparent; */
+    }
+
+    .content-header h2 {
+        font-size: 32px;
+        font-weight: 550;
+        line-height: 50px;
+    }
+
+    .header-subtext {
+        color: #D4AF37;
+    }

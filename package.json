@@ -1,0 +1,26 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass/mystyles.scss assets/css/bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyronebayasen99/react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyronebayasen99/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/tyronebayasen99/react-portfolio#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  }
+}

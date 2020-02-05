@@ -1,0 +1,36 @@
+/* HOME SKILLS CSS */
+.skill-container {
+    max-width: 250px;
+}
+
+    .skills-text {
+        margin-top: 2rem;
+        font-size: 24px;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: .5rem;
+    }
+
+    .skills-icons {
+        max-height: 125px;
+    }
+
+    .skill-icon {
+        padding: auto;
+        height: 40px;
+        width: 40px;
+    }
+
+    .skill-icon:hover {
+        height: 55px;
+        width: 55px;
+    }
+
+    #css3-icon {
+        height: 55px;
+        width: 55px;
+    }
+
+    #css3-icon:hover {
+        height: 70px;
+        width: 70px;
+    }

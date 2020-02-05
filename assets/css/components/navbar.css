@@ -1,0 +1,71 @@
+.top-nav {
+    background-color: transparent;
+}
+
+.nav-logo {
+    margin-left: 1.5em;
+}
+
+.nav-items {
+    margin-right: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.side-nav {
+    padding-left: 1em;
+    height: 100vh;  
+    width: 5vw;
+    padding-top: 15%;
+}
+
+.right-nav {
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.right-nav a {
+    color: lightgrey;
+    font-size: 18px;
+}
+
+/* UNDERBAR CSS */
+.underbar {
+    width: 0;
+    height: 4px;
+    background: rgba(100, 100, 200, 0);
+    top: 55px;
+    position: absolute;
+    -webkit-transition: .5s ease;
+}
+
+    .navbar-end a:hover, a::after {
+        background-color: transparent;
+        color: lightgrey;
+    }
+
+    a:nth-of-type(1):hover~.underbar {
+        top: 55px;
+        right: 345px;
+        width: 64px;    
+        background: #6464c8;
+    }
+    a:nth-of-type(2):hover~.underbar {
+        top: 55px;
+        right: 258px;
+        width: 62px;
+        background: #c86464;
+    }  
+
+    a:nth-of-type(3):hover~.underbar {
+        top: 55px;  
+        right: 148px;
+        width: 85px;
+        background: #ffe54f;
+    }
+
+    a:nth-of-type(4):hover ~ .underbar {
+        right: 68px;
+        width: 54px;
+        background: skyblue;
+    }

@@ -1,0 +1,19 @@
+#portfolio-header {
+    padding-top: 1.5em;
+}
+
+#work-head {
+ top: 0;
+ padding-left: 9.5em;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 800;
+ font-size: 3em;
+ color: #cd7f32;
+}
+
+#work-subheader {
+    padding-top: .8em;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 14.5em;
+    font-size: 1.8em;
+}
